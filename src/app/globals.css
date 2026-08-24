@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: #fafaf8;
+  color: #141414;
+}
+
+::selection {
+  background-color: #141414;
+  color: #fafaf8;
+}
+
+a {
+  text-underline-offset: 3px;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+:focus-visible {
+  outline: 2px solid #141414;
+  outline-offset: 2px;
+}
+
+/* simple tabular numerals for vote counts / bid amounts */
+.tnum {
+  font-variant-numeric: tabular-nums;
+}
